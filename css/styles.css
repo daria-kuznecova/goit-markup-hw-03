@@ -54,15 +54,14 @@ body {
 
 .section {
   padding-bottom: 120px;
+  outline: 1px solid tomato;
 }
-
 .container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid tomato;
 }
 
 /*Шапка*/
@@ -250,7 +249,6 @@ body {
 
 .team {
   padding-top: 120px;
-
   background: var(--secondary-white-background-color);
 }
 
@@ -338,6 +336,9 @@ body {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
+}
+
+.card-item {
   flex-basis: calc((100% - 24px * 2) / 3);
 }
 
@@ -373,8 +374,12 @@ body {
   background: var(--main-background-color);
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 181px;
+  padding-left: 156px;
   padding-right: 1020px;
+}
+
+.footer-block {
+  width: 264px;
 }
 
 .footer-logo {
